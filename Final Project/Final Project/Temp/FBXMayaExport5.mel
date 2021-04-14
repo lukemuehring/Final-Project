@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project/Assets/dataServerParts.mb"`)
+{		
+	file -o "/Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project/Assets/dataServerParts.mb";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "/Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project/Temp/CommandPipe";
+
+$donepipeKill = `fopen "/Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
