@@ -1,0 +1,23 @@
+Steps to make a readable object:
+
+1. Create trigger object
+- GameObject > 3D Object > Cube
+- position cube so that it encompasses the object, tilted slightly up towards the player POV (see example). 
+- turn OFF mesh renderer for the trigger
+
+2. Group object and its trigger
+- select both objects
+- GameObject > Create Empty Parent
+
+3. Make image
+- GameObject > UI > Image or just duplicate an existing image
+- Add image as texture, adjusting as necessary so that it displays nicely on the screen
+- Deactivate/uncheck the image!!!
+
+4. Drag ReadableObject Script onto TRIGGER CUBE! NOT the object itself or its parent
+
+5. Set variables using inspector panel
+- object to read = object itself, not the trigger or its parent
+- image to display = image
+- "The Distance" and "Is Displayed" are just for debugging, do not change these
+- text1 and text2 can be changed if you need it to say something other than "read" or "put down"
