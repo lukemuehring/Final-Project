@@ -29,7 +29,7 @@ public class ReadableObject : MonoBehaviour
     }
 
     void OnMouseOver(){
-        if(TheDistance <= 3 && !IsDisplayed){ //display UI information
+        if(TheDistance <= 3 && !IsDisplayed && !PlayerCasting.isReading){ //display UI information
             ActionKey.GetComponent<Text>().text = "[ E ]";
             ActionKey.SetActive(true);
             ActionText.GetComponent<Text>().text = "Read";
@@ -44,10 +44,11 @@ public class ReadableObject : MonoBehaviour
             ExtraCross.SetActive(true);
         }
 
-        if(Input.GetButtonDown("Action") && !IsDisplayed){
+        if(Input.GetButtonDown("Action") && !IsDisplayed && !PlayerCasting.isReading){
             if(TheDistance <= 3) {
                 ImageToDisplay.SetActive(true);
                 IsDisplayed = true;
+                PlayerCasting.isReading = true;
 
                 ObjectToRead.GetComponent<MeshRenderer>().enabled = false;
                 
@@ -64,6 +65,7 @@ public class ReadableObject : MonoBehaviour
         if(Input.GetButtonDown("Cancel") && IsDisplayed){
             ImageToDisplay.SetActive(false);
             IsDisplayed = false;
+            PlayerCasting.isReading = false;
 
             ObjectToRead.GetComponent<MeshRenderer>().enabled = true;
             
