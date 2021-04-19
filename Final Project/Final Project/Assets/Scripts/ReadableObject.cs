@@ -16,6 +16,9 @@ public class ReadableObject : MonoBehaviour
     public GameObject ImageToDisplay;
     public bool IsDisplayed = false;
 
+    public string Text1 = "Read";
+    public string Text2 = "Put Down";
+
     void Awake() {
         Canvas = GameObject.Find("Canvas");
         ActionKey = Canvas.gameObject.transform.Find("ActionKey").gameObject;
@@ -32,14 +35,14 @@ public class ReadableObject : MonoBehaviour
         if(TheDistance <= 3 && !IsDisplayed && !PlayerCasting.isReading){ //display UI information
             ActionKey.GetComponent<Text>().text = "[ E ]";
             ActionKey.SetActive(true);
-            ActionText.GetComponent<Text>().text = "Read";
+            ActionText.GetComponent<Text>().text = Text1;
             ActionText.SetActive(true);
             ExtraCross.SetActive(true);
         }
         if(TheDistance <= 3 && IsDisplayed){ //display UI information
             ActionKey.GetComponent<Text>().text = "[ Esc ]";
             ActionKey.SetActive(true);
-            ActionText.GetComponent<Text>().text = "Put Down";
+            ActionText.GetComponent<Text>().text = Text2;
             ActionText.SetActive(true);
             ExtraCross.SetActive(true);
         }
@@ -54,7 +57,7 @@ public class ReadableObject : MonoBehaviour
                 
                 ActionKey.GetComponent<Text>().text = "[ Esc ]";    
                 ActionKey.SetActive(true);
-                ActionText.GetComponent<Text>().text = "Put Down";
+                ActionText.GetComponent<Text>().text = Text2;
                 ActionText.SetActive(true);
                 ExtraCross.SetActive(false);
 
@@ -71,7 +74,7 @@ public class ReadableObject : MonoBehaviour
             
             ActionKey.SetActive(true);
             ActionKey.GetComponent<Text>().text = "[ E ]";
-            ActionText.GetComponent<Text>().text = "Read";
+            ActionText.GetComponent<Text>().text = Text1;
             ActionText.SetActive(true);
             ExtraCross.SetActive(true);
         }
