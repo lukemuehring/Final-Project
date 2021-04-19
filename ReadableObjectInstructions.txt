@@ -20,3 +20,4 @@ Steps to make a readable object:
 - object to read = object itself, not the trigger or its parent
 - image to display = image
 - "The Distance" and "Is Displayed" are just for debugging, do not change these
+- text1 and text2 can be changed if you need it to say something other than "read" or "put down"
