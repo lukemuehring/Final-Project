@@ -336,6 +336,8 @@
 "Assets/SampleScenes/Scripts/ParticleSceneControls.cs"
 "Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs"
 "Assets/SampleScenes/Scripts/SlowMoButton.cs"
+"Assets/Scripts/PlayerCasting.cs"
+"Assets/Scripts/ReadableObject.cs"
 "Assets/Scripts/TowerFall.cs"
 "Assets/Scripts/TowerFall2.cs"
 -langversion:8.0
