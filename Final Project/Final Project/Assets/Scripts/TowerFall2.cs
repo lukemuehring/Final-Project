@@ -12,12 +12,11 @@ public class TowerFall2 : MonoBehaviour
 
 
     void OnTriggerEnter(Collider other){
-        if(PlayerCasting.buttonHasBeenPressed){
-            this.gameObject.GetComponent<BoxCollider>().enabled = false; //can't trigger fall again
-            sphereTrigger1.SetActive(true);
-            sphereTrigger2.SetActive(true);
-            StartCoroutine(DeactivateSpheres());
-        }
+        this.gameObject.GetComponent<BoxCollider>().enabled = false; //can't trigger fall again
+        sphereTrigger1.SetActive(true);
+        sphereTrigger2.SetActive(true);
+
+        StartCoroutine(DeactivateSpheres());
     }
 
     IEnumerator DeactivateSpheres(){

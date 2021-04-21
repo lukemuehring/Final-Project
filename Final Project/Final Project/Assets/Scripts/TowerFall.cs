@@ -76,7 +76,6 @@ public class TowerFall : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        if(PlayerCasting.buttonHasBeenPressed){
         this.gameObject.GetComponent<BoxCollider>().enabled = false; //can't trigger fall again
         sphereTrigger1.SetActive(true);
         sphereTrigger2.SetActive(true);
@@ -104,7 +103,6 @@ public class TowerFall : MonoBehaviour
         
 
         StartCoroutine(DeactivateSpheres());
-        }
     }
 
     IEnumerator DeactivateSpheres(){
