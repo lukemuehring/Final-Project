@@ -801,3 +801,40 @@ System memory in use after: 274.0 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4216.
 Total: 6.375490 ms (FindLiveObjects: 0.484522 ms CreateObjectMapping: 0.401165 ms MarkObjects: 4.862960 ms  DeleteObjects: 0.624653 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 6755.537558 seconds.
+  path: Assets/Scenes/dataServerRoomModels.unity
+  artifactKey: Guid(9d4b3251704984d7c801656ce4e8d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dataServerRoomModels.unity using Guid(9d4b3251704984d7c801656ce4e8d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75af449d34dd7feae4da0c2aac89603') in 0.219810 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.382 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.3 MB.
+System memory in use after: 274.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4219.
+Total: 3.623931 ms (FindLiveObjects: 0.464739 ms CreateObjectMapping: 0.256907 ms MarkObjects: 2.531530 ms  DeleteObjects: 0.369003 ms)
+
