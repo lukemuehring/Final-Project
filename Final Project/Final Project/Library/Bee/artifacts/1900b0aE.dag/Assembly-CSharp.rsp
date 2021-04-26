@@ -340,6 +340,7 @@
 "Assets/Scripts/ComputerReadable.cs"
 "Assets/Scripts/exitLvl2.cs"
 "Assets/Scripts/IntroSequence.cs"
+"Assets/Scripts/lvl2Load.cs"
 "Assets/Scripts/PlayerCasting.cs"
 "Assets/Scripts/ReadableObject.cs"
 "Assets/Scripts/TowerFall.cs"
