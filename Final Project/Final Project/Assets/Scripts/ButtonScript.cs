@@ -17,6 +17,7 @@ public class ButtonScript : MonoBehaviour
     public GameObject innerButton;
     public AudioSource powerDownSound;
     public AudioSource alarmSound;
+    public AudioSource warningSound;
 
     public GameObject Lights;
     
@@ -142,10 +143,11 @@ public class ButtonScript : MonoBehaviour
             LightPlane7.GetComponent<Animation>().Play("lightTurnsRedAnim");
             PointLight7.GetComponent<Animation>().Play("flashingLightAnim");
 
+            warningSound.Play();
             subtitle.SetActive(true);
             yield return new WaitForSeconds(2.0f);
             alarmSound.Play();
-            yield return new WaitForSeconds(3.0f);
+            yield return new WaitForSeconds(5.0f);
             subtitle.SetActive(false);
     }
 }

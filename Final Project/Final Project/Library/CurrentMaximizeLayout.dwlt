@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 51681
+  controlID: 53232
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 51682
+  controlID: 53184
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 51683
+  controlID: 53158
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,8 +183,8 @@ MonoBehaviour:
     y: 0
     width: 221
     height: 523
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -220,7 +220,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 749afbffe4b0fbff5ab3fbffa4b3fbff04befbff4ccffbfffedafbffc419fcff4c9dfcff6c9dfcffbe9ffcff4aabfcff02b9fcff3ac6fcff260dfdff680efdffd013fdff3c15fdff4a16fdffb618fdff401afdff821bfdfffc1cfdffd292fdffb4bbfdfff6befdff6ad5fdffe2dcfdff24effdffc0f1fdfffef2fdff8213feffba5afeff1a5bfefffa3bffff7a3cffffe83fffff7c4affff3264ffff3c64ffff94aeffffa0b0ffffd2b0ffff48b4ffff54fbffffee590000965a0000286f0000766f0000786f0000a06f0000f67100008c730000a4760000a87600000e6901003a6a01004e6a0100d06b0100286c0100006d01000e6e0100c66e0100e66e010080f40a00b8f50a00c69a0b00189b0b00fae90b0012eb0b0046eb0b004ceb0b009aeb0b009eeb0b001ced0b0036ed0b00b2ed0b00d6ed0b0002ee0b000eee0b002eee0b00aeee0b00e6ee0b0032ef0b00f4ef0b00d6fe1e00960f1f00967220003474200098892000ea8d2000
+      m_ExpandedIDs: 749afbffe4b0fbff5ab3fbffa4b3fbff04befbff4ccffbfffedafbffc419fcff4c9dfcff6c9dfcffbe9ffcff4aabfcff02b9fcff3ac6fcff260dfdff680efdffd013fdff3c15fdff4a16fdffb618fdff401afdff821bfdfffc1cfdffd292fdffb4bbfdfff6befdff6ad5fdffe2dcfdff24effdffc0f1fdfffef2fdff8213feffba5afeff1a5bfefffa3bffff7a3cffffe83fffff7c4affff3264ffff3c64ffff94aeffffa0b0ffffd2b0ffff48b4ffff54fbffffee590000965a0000286f0000766f0000786f0000a06f0000f67100008c730000a4760000a87600000e6901003a6a01004e6a0100d06b0100286c0100006d01000e6e0100c66e0100e66e010080f40a00b8f50a00c69a0b00189b0b00fae90b0012eb0b0046eb0b004ceb0b009aeb0b009eeb0b001ced0b0036ed0b00b2ed0b00d6ed0b0002ee0b000eee0b002eee0b00aeee0b00e6ee0b0032ef0b00f4ef0b00d6fe1e00960f1f009e66200008672000347420005e77200098892000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -432,8 +432,8 @@ MonoBehaviour:
     y: 523
     width: 1139
     height: 282
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -479,22 +479,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/Audio
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing
     the Moving Image/Final-Project/Final Project/Final Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c05f0000
-    m_LastClickedID: 24512
+    scrollPos: {x: 0, y: 32.999878}
+    m_SelectedIDs: c45f0000
+    m_LastClickedID: 24516
     m_ExpandedIDs: 00000000b45e0000b65e0000c85f0000e21a020000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -548,8 +548,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 22aefbff
-    m_LastClickedInstanceID: -283102
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300001489000000000000ca5f0000
     m_RenameOverlay:
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 2127424
+  m_LastSelectedObjectID: 2126526
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -690,7 +690,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -283102
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
