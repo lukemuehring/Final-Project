@@ -76,33 +76,35 @@ public class TowerFall : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        this.gameObject.GetComponent<BoxCollider>().enabled = false; //can't trigger fall again
-        sphereTrigger1.SetActive(true);
-        sphereTrigger2.SetActive(true);
-        
-        LightPlane1.GetComponent<Animation>().Play("lightTurnsRedAnim");
-        PointLight1.GetComponent<Animation>().Play("flashingLightAnim");
+        if(PlayerCasting.hasPressedButton){
+            this.gameObject.GetComponent<BoxCollider>().enabled = false; //can't trigger fall again
+            sphereTrigger1.SetActive(true);
+            sphereTrigger2.SetActive(true);
+            
+            LightPlane1.GetComponent<Animation>().Play("lightTurnsRedAnim");
+            PointLight1.GetComponent<Animation>().Play("flashingLightAnim");
 
-        LightPlane2.GetComponent<Animation>().Play("lightTurnsRedAnim");
-        PointLight2.GetComponent<Animation>().Play("flashingLightAnim");
+            LightPlane2.GetComponent<Animation>().Play("lightTurnsRedAnim");
+            PointLight2.GetComponent<Animation>().Play("flashingLightAnim");
 
-        LightPlane3.GetComponent<Animation>().Play("lightTurnsRedAnim");
-        PointLight3.GetComponent<Animation>().Play("flashingLightAnim");
+            LightPlane3.GetComponent<Animation>().Play("lightTurnsRedAnim");
+            PointLight3.GetComponent<Animation>().Play("flashingLightAnim");
 
-        LightPlane4.GetComponent<Animation>().Play("lightTurnsRedAnim");
-        PointLight4.GetComponent<Animation>().Play("flashingLightAnim");
-        
-        LightPlane5.GetComponent<Animation>().Play("lightTurnsRedAnim");
-        PointLight5.GetComponent<Animation>().Play("flashingLightAnim");
-        
-        LightPlane6.GetComponent<Animation>().Play("lightTurnsRedAnim");
-        PointLight6.GetComponent<Animation>().Play("flashingLightAnim");
+            LightPlane4.GetComponent<Animation>().Play("lightTurnsRedAnim");
+            PointLight4.GetComponent<Animation>().Play("flashingLightAnim");
+            
+            LightPlane5.GetComponent<Animation>().Play("lightTurnsRedAnim");
+            PointLight5.GetComponent<Animation>().Play("flashingLightAnim");
+            
+            LightPlane6.GetComponent<Animation>().Play("lightTurnsRedAnim");
+            PointLight6.GetComponent<Animation>().Play("flashingLightAnim");
 
-        LightPlane7.GetComponent<Animation>().Play("lightTurnsRedAnim");
-        PointLight7.GetComponent<Animation>().Play("flashingLightAnim");
-        
+            LightPlane7.GetComponent<Animation>().Play("lightTurnsRedAnim");
+            PointLight7.GetComponent<Animation>().Play("flashingLightAnim");
+            
 
-        StartCoroutine(DeactivateSpheres());
+            StartCoroutine(DeactivateSpheres());
+        }
     }
 
     IEnumerator DeactivateSpheres(){

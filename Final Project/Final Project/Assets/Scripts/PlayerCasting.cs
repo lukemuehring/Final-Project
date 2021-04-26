@@ -7,6 +7,7 @@ public class PlayerCasting : MonoBehaviour
     public static float DistanceFromTarget;
     public float ToTarget;
     public static bool isReading;
+    public static bool hasPressedButton = false;
 
     // Update is called once per frame
     void Update(){
