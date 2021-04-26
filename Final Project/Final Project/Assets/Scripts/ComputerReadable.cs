@@ -21,6 +21,8 @@ public class ComputerReadable : MonoBehaviour
     public string Text1 = "Read";
     public string Text2 = "Put Down";
 
+    public GameObject buttonLight;
+
     void Awake() {
         Canvas = GameObject.Find("Canvas");
         ActionKey = Canvas.gameObject.transform.Find("ActionKey").gameObject;
@@ -91,7 +93,9 @@ public class ComputerReadable : MonoBehaviour
 
     IEnumerator Subtitle(){
         subtitleToDisplay.SetActive(true);
+        buttonLight.SetActive(true);
         yield return new WaitForSeconds(5.0f);
         subtitleToDisplay.SetActive(false);
+
     }
 }
