@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637550546240000000
-    m_Hash: 1439571794
+      ticks: 637551533530000000
+    m_Hash: 3718076988
   m_LockFileStatus:
     m_FilePath: /Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the
       Moving Image/Final-Project/Final Project/Final Project/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637550546250000000
-    m_Hash: 2072440441
+      ticks: 637551533550000000
+    m_Hash: 2069244618
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -65,6 +65,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.5.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -77,6 +78,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     compatible:
     - 1.3.9
+    - 1.5.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -334,94 +336,6 @@ m_ResolvedPackages:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
     revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.postprocessing@3.1.0
-  testable: 0
-  isDirectDependency: 1
-  version: 3.1.0
-  source: 1
-  resolvedPath: /Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the
-    Moving Image/Final-Project/Final Project/Final Project/Library/PackageCache/com.unity.postprocessing@3.1.0
-  assetPath: Packages/com.unity.postprocessing
-  name: com.unity.postprocessing
-  displayName: Post Processing
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The post-processing stack (v2) comes with a collection of effects
-    and image filters you can apply to your cameras to improve the visuals of your
-    games.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.7
-    - 0.1.8
-    - 2.0.0-beta
-    - 2.0.1-beta
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.5-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 2.0.9-preview
-    - 2.0.10-preview
-    - 2.0.11-preview
-    - 2.0.12-preview
-    - 2.0.13-preview
-    - 2.0.14-preview
-    - 2.0.15-preview
-    - 2.0.16-preview
-    - 2.0.17-preview
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.1.7
-    - 2.2.1
-    - 2.2.2
-    - 2.3.0
-    - 3.0.1
-    - 3.0.3
-    - 3.1.0
-    compatible:
-    - 3.1.0
-    verified: 3.1.0
-  dependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637504209320000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/Graphics.git
-    revision: c3233d84609fb4c1da8b0f1ea07d0b6c75f8c114
     path: 
   unityLifecycle:
     version: 
