@@ -1,114 +1,153 @@
 Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 16308 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project
+G:/documents/Github/Final-Project/Final Project/Final Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51353
-Successfully changed project path to: /Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project
-/Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project
+51519
+Successfully changed project path to: G:/documents/Github/Final-Project/Final Project/Final Project
+G:/documents/Github/Final-Project/Final Project/Final Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 91.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/jennakohls/Documents/Spring 2021/LMC 2730 Constructing the Moving Image/Final-Project/Final Project/Final Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/documents/Github/Final-Project/Final Project/Final Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-04-27 16:49:40.238 Unity[76313:4674252] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
-2021-04-27 16:49:40.238 Unity[76313:4674252] Metal devices available: 1
-2021-04-27 16:49:40.238 Unity[76313:4674252] 0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
-2021-04-27 16:49:40.238 Unity[76313:4674252] Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11127 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56313
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006024 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002021 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 188.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 90.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.882 seconds
+- Completed reload, in  1.226 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004991 seconds.
+Registered in 0.002448 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.636 seconds
+- Completed reload, in  0.765 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.6 MB.
-System memory in use after: 215.8 MB.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 130.8 MB.
 
-Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 3689.
-Total: 2.850404 ms (FindLiveObjects: 0.317949 ms CreateObjectMapping: 0.183520 ms MarkObjects: 2.197841 ms  DeleteObjects: 0.149922 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3682.
+Total: 1.972700 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.141200 ms MarkObjects: 1.381800 ms  DeleteObjects: 0.197200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(5b5400db019be4a3e9e4468405431536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2.unity using Guid(5b5400db019be4a3e9e4468405431536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb825ef499e2f40b2882ada223d53de') in 0.020105 seconds 
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e3b0d4d28e3570eb9237b2a8027d38') in 0.008040 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Scenes/Level 2_Profiles
-  artifactKey: Guid(049f5b6bbd76d4c4d88ed8ddf46895d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2_Profiles using Guid(049f5b6bbd76d4c4d88ed8ddf46895d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e180debb9fb5dde2e473883aee5f73d7') in 0.000872 seconds 
+  Time since last request: 29.538330 seconds.
+  path: Assets/intro_outro_music.mp3
+  artifactKey: Guid(aa07add5fc951b04e8aa55f01a973411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/intro_outro_music.mp3 using Guid(aa07add5fc951b04e8aa55f01a973411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dce3d099a18acb5e5e8dfd25686a65') in 0.088303 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005014 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.5 MB.
-System memory in use after: 211.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3692.
-Total: 4.006323 ms (FindLiveObjects: 0.853148 ms CreateObjectMapping: 0.307212 ms MarkObjects: 2.764027 ms  DeleteObjects: 0.079742 ms)
-
+Received Import Request.
+  Time since last request: 20.586327 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(600006e7e734648068d2104d5cbfaf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(600006e7e734648068d2104d5cbfaf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c65278656dfde5408c44b4ad2a77523') in 0.006225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066009 seconds.
+  path: Assets/Audio/beep_distant.wav
+  artifactKey: Guid(911ecb27b47fa42a1b833d5f5fbd8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/beep_distant.wav using Guid(911ecb27b47fa42a1b833d5f5fbd8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abe73f561c55b299f14d4314307ec6f') in 0.012548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Audio/power_down.wav
+  artifactKey: Guid(23e0f097001ac42d8820219f58b1223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/power_down.wav using Guid(23e0f097001ac42d8820219f58b1223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a5941e379aca815e50268636919af0') in 0.011234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Audio/buttonClick.wav
+  artifactKey: Guid(615c8817b0f894651a6592fbff62e714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/buttonClick.wav using Guid(615c8817b0f894651a6592fbff62e714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81261a3f8b885ac3b799c2968cd9f9c') in 0.012758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Audio/elevator_doors_open.wav
+  artifactKey: Guid(4d4af7b97b36a493a88b1c0a78e20132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/elevator_doors_open.wav using Guid(4d4af7b97b36a493a88b1c0a78e20132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92a62d61b7dc3bcd1a6a2eca5975d78') in 0.010854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Audio/server_noises.wav
+  artifactKey: Guid(0bb715011a1cc46e5ae47127e502057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/server_noises.wav using Guid(0bb715011a1cc46e5ae47127e502057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef8637c2bef8f92cb4be47bdb5e95e6') in 0.011920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Audio/elevator_ding.wav
+  artifactKey: Guid(b53ed1635a3d744f181563203213203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/elevator_ding.wav using Guid(b53ed1635a3d744f181563203213203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e436845eedc0178ead1d7425db822a') in 0.010426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Audio/texttospeechwarning.mp3
+  artifactKey: Guid(8c4d4c5511ba647b2b4ec5d26ca6b8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/texttospeechwarning.mp3 using Guid(8c4d4c5511ba647b2b4ec5d26ca6b8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11772c285bde939d7ee76d7469e3fac') in 0.009390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Audio/elevator_doors_close.wav
+  artifactKey: Guid(123ee67a0fb93400c9ce542e600c7d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/elevator_doors_close.wav using Guid(123ee67a0fb93400c9ce542e600c7d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e151c233d118ffcb5539252df8db3') in 0.008416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Audio/jennaVO.wav
+  artifactKey: Guid(bae635600ade243da9ab8c7a447e4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/jennaVO.wav using Guid(bae635600ade243da9ab8c7a447e4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f40d01c56be8882010b255a8c85f90e') in 0.009801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 314.747101 seconds.
+  path: Assets/Audio/level_1_music.mp3
+  artifactKey: Guid(ae071e3074ca90242942efe7ec79bbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/level_1_music.mp3 using Guid(ae071e3074ca90242942efe7ec79bbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebfd47e76a029fb29f61555d1a4135e') in 0.011306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.993677 seconds.
+  path: Assets/Audio/level_2_music.mp3
+  artifactKey: Guid(1329136ae847248409b42bd3a7c4e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/level_2_music.mp3 using Guid(1329136ae847248409b42bd3a7c4e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518ca6460254797c14ef4738291944b7') in 0.010854 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
