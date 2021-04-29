@@ -58,6 +58,8 @@ public class CluesInteract : MonoBehaviour
                 captionBox.GetComponent<Text>().text = "";
             }
         }
+
+        //StartCoroutine(queElevator());
     }
    
     public void OnTriggerEnter(Collider other) {
@@ -69,12 +71,23 @@ public class CluesInteract : MonoBehaviour
         textBox.GetComponent<Text>().text = "";
         customImage.enabled = false;
         onTrigger = false;
+        StartCoroutine(queElevator());
+        
 
     }
 
     public void clueCount(bool alreadyLooked) {
         if (!alreadyLooked) {
             cluesFound++;
+        }
+    }
+
+    IEnumerator queElevator() {
+        if (cluesFound >= 5 && !onTrigger) {
+            yield return new WaitForSeconds(2.5f);
+            textBox.GetComponent<Text>().text = "Maybe the answer is in the basement...";
+            yield return new WaitForSeconds(5.0f);
+            textBox.GetComponent<Text>().text = "";
         }
     }
     
