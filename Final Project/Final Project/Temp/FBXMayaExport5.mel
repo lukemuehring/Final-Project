@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Assets/Models/ELEVAT~1.MB"`)
+{		
+	file -o "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Assets/Models/ELEVAT~1.MB";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/CommandPipe";
+
+$donepipeKill = `fopen "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
