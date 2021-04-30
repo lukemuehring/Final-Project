@@ -7,30 +7,30 @@ if (getApplicationVersionAsFloat() >= 8.0)
 {
 	// Use unqualified path to support Maya 2013, 2015 and future version
 	loadPlugin "fbxmaya";
-	eval ("source \"G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/FBXMayaExport.mel\"");
+	eval ("source \"/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/FBXMayaExport.mel\"");
 }
 else if (getApplicationVersionAsFloat() >= 7.0)
 {
-	loadPlugin "C:/PROGRA~1/Autodesk/MAYALT~1/bin/Contents/MacOS/plug-ins/fbxmaya.lib";
-	eval ("source \"G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/FBXMayaExport.mel\"");
+	loadPlugin "/Applications/Autodesk/maya2020/Maya.app/Contents/MacOS/plug-ins/fbxmaya.lib";
+	eval ("source \"/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/FBXMayaExport.mel\"");
 }
 else if (getApplicationVersionAsFloat() >= 6.5)
 {
-	loadPlugin "C:/PROGRA~1/Unity/Hub/Editor/20211~1.0F1/Editor/Unity.exe/Contents/Tools/fbxmaya65.lib";
-	eval ("source \"G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/FBXMayaExport.mel\"");
+	loadPlugin "/Applications/Unity/Unity.app/Contents/Tools/fbxmaya65.lib";
+	eval ("source \"/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/FBXMayaExport.mel\"");
 }
 else if (getApplicationVersionAsFloat() >= 6.0) 
 {
-	loadPlugin "C:/PROGRA~1/Unity/Hub/Editor/20211~1.0F1/Editor/Unity.exe/Contents/Tools/fbxmaya60.lib";
-	eval ("source \"G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/FBXMayaExport.mel\"");
+	loadPlugin "/Applications/Unity/Unity.app/Contents/Tools/fbxmaya60.lib";
+	eval ("source \"/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/FBXMayaExport.mel\"");
 }
 else if (getApplicationVersionAsFloat() >= 5.0)
 {
-	loadPlugin "C:/PROGRA~1/Unity/Hub/Editor/20211~1.0F1/Editor/Unity.exe/Contents/Tools/fbxmaya50.lib";
-	eval ("source \"G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/FBXMayaExport5.mel\"");
+	loadPlugin "/Applications/Unity/Unity.app/Contents/Tools/fbxmaya50.lib";
+	eval ("source \"/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/FBXMayaExport5.mel\"");
 }
 else if (getApplicationVersionAsFloat() >= 4.5) 
 {
-	loadPlugin "C:/PROGRA~1/Unity/Hub/Editor/20211~1.0F1/Editor/Unity.exe/Contents/Tools/fbxmaya45.lib";
-	eval ("source \"G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/FBXMayaExport5.mel\"");
+	loadPlugin "/Applications/Unity/Unity.app/Contents/Tools/fbxmaya45.lib";
+	eval ("source \"/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/FBXMayaExport5.mel\"");
 }

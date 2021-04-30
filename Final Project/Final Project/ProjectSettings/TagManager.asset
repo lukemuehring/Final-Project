@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
+  - Bench
+  - Running
+  - ActivityLog
+  - Sitting
+  - Blueprint
+  - Table
   layers:
   - Default
   - TransparentFX
