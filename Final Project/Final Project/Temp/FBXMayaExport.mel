@@ -1,13 +1,13 @@
 while (1)
 {	
-	if (`filetest -r "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/CommandPipe"`)
+	if (`filetest -r "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/CommandPipe"`)
 	{
 		$exportNormals = 0;
 		$exportTangents = 0;
 		$bakeCommand = "";
 	
 		// Parse settings
-		$waitpipe = `fopen "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/CommandPipe" "r"`;
+		$waitpipe = `fopen "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/CommandPipe" "r"`;
 		$filename = `fgetline $waitpipe`;
 		$fbxFilename = `fgetline $waitpipe`;
 		
@@ -144,9 +144,9 @@ while (1)
 			else
 				print "Could not open Maya file.";
 
-			sysFile -delete "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/CommandPipe";
+			sysFile -delete "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/CommandPipe";
 
-			$donepipe = `fopen "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/SyncPipe" "w"`;
+			$donepipe = `fopen "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/SyncPipe" "w"`;
 			fwrite $donepipe "Done";
 			fclose $donepipe;
 			print "Finished maya loading and fbx conversion \n";

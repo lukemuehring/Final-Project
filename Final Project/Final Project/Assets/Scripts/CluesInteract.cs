@@ -39,8 +39,8 @@ public class CluesInteract : MonoBehaviour
             if (!isReading) {
                 customImage.enabled = true;
                 textBox.GetComponent<Text>().text = "";
-                paperPickUp.Play();
                 isReading = true;
+                paperPickUp.Play();
                 if (this.gameObject.tag == "ActivityLog") {
                     captionBox.GetComponent<Text>().text = " 'They have been tracking my activity...everyday...' ";
                     clueCount(clue1);
@@ -54,7 +54,7 @@ public class CluesInteract : MonoBehaviour
                     clueCount(clue3);
                     clue3 = true;
                 } else if (this.gameObject.tag == "Blueprint") {
-                    captionBox.GetComponent<Text>().text = " 'It seems they were going over the blueprints to my house' ";
+                    captionBox.GetComponent<Text>().text = " 'It seems they were going over the blueprints to my house.' ";
                     clueCount(clue4);
                     clue4 = true;
                 } else if (this.gameObject.tag == "Bench") {
@@ -63,11 +63,11 @@ public class CluesInteract : MonoBehaviour
                     clue5 = true;
                 } 
             } else {
-                paperPutDown.Play();
-
                 customImage.enabled = false;
                 isReading = false;
                 captionBox.GetComponent<Text>().text = "";
+
+                paperPutDown.Play();
             }
             
         }

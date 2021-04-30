@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1175,6 +1175,9 @@ MonoBehaviour:
   isReading: 0
   onTrigger: 0
   keyActive: 0
+  paperPickUp: {fileID: 1277775597}
+  paperPutDown: {fileID: 1492928144}
+  elevatorDing: {fileID: 340632639}
   clue1: 0
   clue2: 0
   clue3: 0
@@ -6983,7 +6986,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 798cf4492211e8d4aa396e0559c0b31e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 57c8a0b5826cd4710952c7b45bdd4697, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.694
   m_Pitch: 1
@@ -10279,6 +10282,9 @@ MonoBehaviour:
   isReading: 0
   onTrigger: 0
   keyActive: 0
+  paperPickUp: {fileID: 1277775597}
+  paperPutDown: {fileID: 1492928144}
+  elevatorDing: {fileID: 340632639}
   clue1: 0
   clue2: 0
   clue3: 0
@@ -15149,6 +15155,9 @@ MonoBehaviour:
   isReading: 0
   onTrigger: 0
   keyActive: 0
+  paperPickUp: {fileID: 1277775597}
+  paperPutDown: {fileID: 1492928144}
+  elevatorDing: {fileID: 340632639}
   clue1: 0
   clue2: 0
   clue3: 0
@@ -21895,13 +21904,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 3}
+    m_Font: {fileID: 12800000, guid: 87c316b602156405d92e616621658222, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 7
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -23253,6 +23262,9 @@ MonoBehaviour:
   isReading: 0
   onTrigger: 0
   keyActive: 0
+  paperPickUp: {fileID: 0}
+  paperPutDown: {fileID: 0}
+  elevatorDing: {fileID: 0}
   clue1: 0
   clue2: 0
   clue3: 0
@@ -23661,6 +23673,9 @@ MonoBehaviour:
   isReading: 0
   onTrigger: 0
   keyActive: 0
+  paperPickUp: {fileID: 1277775597}
+  paperPutDown: {fileID: 1492928144}
+  elevatorDing: {fileID: 340632639}
   clue1: 0
   clue2: 0
   clue3: 0
@@ -26856,7 +26871,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 74099ad60462541488c90b375f8ed9cf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 65b6534297f094d7e8f596a0e2711cdf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.845
   m_Pitch: 1
@@ -28645,6 +28660,9 @@ MonoBehaviour:
   isReading: 0
   onTrigger: 0
   keyActive: 0
+  paperPickUp: {fileID: 1277775597}
+  paperPutDown: {fileID: 1492928144}
+  elevatorDing: {fileID: 340632639}
   clue1: 0
   clue2: 0
   clue3: 0
@@ -29065,7 +29083,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 3}
+    m_Font: {fileID: 12800000, guid: 87c316b602156405d92e616621658222, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -29139,6 +29157,9 @@ MonoBehaviour:
   isReading: 0
   onTrigger: 0
   keyActive: 0
+  paperPickUp: {fileID: 1277775597}
+  paperPutDown: {fileID: 1492928144}
+  elevatorDing: {fileID: 340632639}
   clue1: 0
   clue2: 0
   clue3: 0
