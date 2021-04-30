@@ -100,9 +100,9 @@ public class CluesInteract : MonoBehaviour
         if (cluesFound >= 5 && !onTrigger) {
             elevatorDing.Play();
             yield return new WaitForSeconds(2.5f);
-            textBox.GetComponent<Text>().text = "Maybe the answer is in the basement...";
+            captionBox.GetComponent<Text>().text = "Maybe the answer is in the basement...";
             yield return new WaitForSeconds(5.0f);
-            textBox.GetComponent<Text>().text = "";
+            captionBox.GetComponent<Text>().text = "";
         }
     }
     
