@@ -1,22 +1,22 @@
 print "Starting maya loading and fbx conversion \n";
 	
-if (`file -q -exists "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Assets/Models/ElevatorChairTableComputerSwordCup.mb"`)
+if (`file -q -exists "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Assets/Models/ELEVAT~1.MB"`)
 {		
-	file -o "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Assets/Models/ElevatorChairTableComputerSwordCup.mb";
+	file -o "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Assets/Models/ELEVAT~1.MB";
 	FBXExportEmbeddedTextures -v false;
 	// FBXExportHardEdges -v true;
 	FBXExportApplyConstantKeyReducer -v false;
 	FBXExportShowUI -v false;
 
 	print "Before fbx export\n";
-	FBXExport -f "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/ExportedFBXFile.fbx";
+	FBXExport -f "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/ExportedFBXFile.fbx";
 	print "after fbx export\n";
 }
 else
 	print "Could not open Maya file.";
 
-sysFile -delete "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/CommandPipe";
+sysFile -delete "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/CommandPipe";
 
-$donepipeKill = `fopen "/Users/dominicadams/Documents/GitHub/Final-Project/Final Project/Final Project/Temp/SyncPipeKill" "w"`;
+$donepipeKill = `fopen "G:/DOCUME~1/Github/FINAL-~1/FINALP~1/FINALP~1/Temp/SyncPipeKill" "w"`;
 fwrite $donepipeKill "Done";
 fclose $donepipeKill;

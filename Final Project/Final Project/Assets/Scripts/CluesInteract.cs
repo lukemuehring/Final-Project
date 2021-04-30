@@ -14,6 +14,10 @@ public class CluesInteract : MonoBehaviour
     public static int cluesFound = 0;
     public bool keyActive = false;
 
+    public AudioSource paperPickUp;
+    public AudioSource paperPutDown;
+    public AudioSource elevatorDing;
+
     public bool clue1 = false;
     public bool clue2 = false;
     public bool clue3 = false;
@@ -35,6 +39,7 @@ public class CluesInteract : MonoBehaviour
             if (!isReading) {
                 customImage.enabled = true;
                 textBox.GetComponent<Text>().text = "";
+                paperPickUp.Play();
                 isReading = true;
                 if (this.gameObject.tag == "ActivityLog") {
                     captionBox.GetComponent<Text>().text = " 'They have been tracking my activity...everyday...' ";
@@ -58,6 +63,8 @@ public class CluesInteract : MonoBehaviour
                     clue5 = true;
                 } 
             } else {
+                paperPutDown.Play();
+
                 customImage.enabled = false;
                 isReading = false;
                 captionBox.GetComponent<Text>().text = "";
@@ -91,6 +98,7 @@ public class CluesInteract : MonoBehaviour
 
     IEnumerator queElevator() {
         if (cluesFound >= 5 && !onTrigger) {
+            elevatorDing.Play();
             yield return new WaitForSeconds(2.5f);
             textBox.GetComponent<Text>().text = "Maybe the answer is in the basement...";
             yield return new WaitForSeconds(5.0f);
